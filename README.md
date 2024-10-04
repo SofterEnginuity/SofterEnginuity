@@ -1,4 +1,4 @@
-##My Portfolio
+## My Portfolio
 
 
 This project is a glimpse into my corner of the internet. It shows things like I like, project that I have completed as well as communites that I belong to! Feel free to reach out with any questions!
