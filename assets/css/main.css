@@ -1849,7 +1849,10 @@ input, select, textarea {
 		}
 
 /* Widgets */
-
+.thumb{
+	height:110px;
+	
+}
 	.widget.thumbnails .grid {
 		margin: 0 0 3em 0;
 	}
