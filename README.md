@@ -5,7 +5,7 @@ This project is a glimpse into my corner of the internet. It shows things like I
 
 **Link to project:** https://softerenginuity.netlify.app/
 
-![alt tag](https://i.imgur.com/ciMT4js.png)
+![alt tag](https://i.imgur.com/Y6zZP2M.png)
 
 ## How It's Made:
 
