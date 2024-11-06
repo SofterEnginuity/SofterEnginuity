@@ -33,6 +33,10 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	background-color:rgb(255, 242, 253);
+	
+	text-align:center;
+	/* margin-left:auto;
+	margin-right:auto; */
 }
 
 ol, ul {
@@ -42,7 +46,9 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
-
+.last{
+	width:50%;
+}
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
@@ -59,6 +65,33 @@ body {
 	
 }
 
+.header{
+	display:flex;
+	justify-content:center;
+}
+.banner{
+	display:flex;
+	justify-content:center;
+	align-items:stretch;
+}
+
+.main{
+	display:flex;
+	justify-content:center;
+}
+
+.features{
+	display:flex;
+	justify-content:center;
+}
+
+.footer{
+	display:flex;
+	justify-content:center;
+}
+.links{
+	margin-right:3px;
+}
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -126,6 +159,8 @@ input, select, textarea {
 		line-height: 2.25em;
 	}
 
+
+	
 	a {
 		color: #0090c5;
 		text-decoration: underline;
@@ -201,8 +236,7 @@ input, select, textarea {
 
 	.container {
 		margin-top:-30px;
-		max-width: 100%;
-		width: 1400px;
+		width: 90%;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -335,12 +369,20 @@ input, select, textarea {
 			width: 58.33333%;
 		} */
 
+		.rowFooter{
+			display: flex;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		align-items: stretch;
+		justify-content:space-around;
+		}
 		.row > .off-7 {
 			margin-left: 58.33333%;
 		}
 
 		.row > .col-8 {
-			width: 35%;
+			width: 21%;
+			font-size: 38px;
 		}
 
 		.row > .off-8 {
@@ -1059,6 +1101,7 @@ input, select, textarea {
 
 				.row > .col-6-medium {
 					width: 50%;
+					margin-right:3p
 				}
 
 				.row > .off-6-medium {
@@ -1174,6 +1217,7 @@ input, select, textarea {
 
 					.row > * {
 						padding: 25px 0 0 25px;
+						width:40%;
 					}
 
 					.row.gtr-uniform {
@@ -1207,7 +1251,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-200 > * {
-						padding: 50px 0 0 50px;
+						padding: 50px 0 0 0;
 					}
 
 					.row.gtr-200.gtr-uniform {
@@ -1477,6 +1521,7 @@ input, select, textarea {
 	article:last-child {
 		margin-bottom: 0;
 		text-align:center;
+		width:110%;
 	}
 
 	header {
@@ -1599,7 +1644,7 @@ input, select, textarea {
 		outline: 0;
 	}
 .foot{
-	/* background-color:pink; */
+
     width: 98%;
     margin-left: 4px;
 }
@@ -1609,7 +1654,7 @@ h4 {
     text-align: center;
 }
 		.image img {
-			display: block;
+			
 			width: 80%;
 			border-radius: 8px;
 			height: 35vh;
@@ -1624,8 +1669,9 @@ h4 {
 
 		.image.featured {
 			display: block;
-			width: 100%;
+			width: 61%;
 			margin: 0 0 2.5em 0;
+			height:10%;
 		}
 
 		.image.left {
@@ -1809,7 +1855,14 @@ h4 {
 	}
 
 		.box.feature {
-			padding: 27px 28px 0 27px;
+			
+				padding: 27px 28px 0 27px;
+				display: flex;
+				flex-direction: column;
+				align-content: center;
+				justify-content: center;
+				align-items: center;
+			
 		}
 
 			.box.feature .inner {
@@ -1827,6 +1880,9 @@ h4 {
 			.box.feature .image {
 				position: relative;
 				margin: 0;
+				flex-direction: column;
+    			justify-content: center;
+    			align-items: center;
 			}
 
 				.box.feature .image img {
@@ -1941,13 +1997,12 @@ h4 {
 	#features-wrapper {
 		padding: 3em 0 3em 0;
 	}
-.proj{
-	width:120%
-}
+
 	#main-wrapper {
-		background: #fff;
-		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
+		
 		padding-top: 75px;
+
+		
 	}
 
 	#footer-wrapper {
@@ -2056,8 +2111,9 @@ h4 {
 		padding-left: 0;
 	}
 	.me {
-		width: 23em;
-		height: 23em;
+		width: 40em;
+    height: 44em;
+    margin-top: 10px;
 	}
 		.dropotron li {
 			border-top: solid 1px #eee;
@@ -2110,6 +2166,8 @@ h4 {
 	#banner {
 		position: relative;
 		padding: 0em;
+		width: 90%;
+		height: 45vh;
 	}
 
 		#banner h2 {
@@ -2118,9 +2176,10 @@ h4 {
 		}
 
 		#banner p {
-			font-size: 1.2em;
-			line-height: 1.35em;
-			margin: 0;
+			font-size: 2.2em;
+    		line-height: 1.5em;
+    		width: 96%;
+    		margin: 0;
 		}
 
 		#banner .button {
@@ -2153,10 +2212,14 @@ h4 {
 
 	#footer {
 		margin-top: 0;
+		width:100%;
+		margin-right:2px;
 	}
 
 		#footer a {
 			color: inherit;
+			width:100%;
+
 		}
 
 	#copyright {
@@ -2362,6 +2425,7 @@ h4 {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
+				
 			}
 
 			#navToggle {
@@ -2656,6 +2720,9 @@ h4 {
 
 			#banner-wrapper {
 				padding: 0 15px 0 15px;
+				display:flex;
+				justify-content:center;
+
 			}
 
 			#features-wrapper {
@@ -2679,6 +2746,7 @@ h4 {
 
 		/* Banner */
 
+		
 			#banner {
 				text-align: center;
 				padding: 15px 15px 15px 15px;
@@ -2708,6 +2776,7 @@ h4 {
 
 			#content {
 				padding-bottom: 3em;
+				width:60%;
 			}
 
 		/* Footer */
