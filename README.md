@@ -6,6 +6,5 @@ My portfolio is a glimpse into my corner of the internet. It give insight on tha
 
 **Link to project:** https://softerenginuity.netlify.app/
 
-![alt tag](https://i.imgur.com/yitPuYY.png)
 
 
